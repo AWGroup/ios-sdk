@@ -228,7 +228,7 @@ NSString * const DATE_FORMAT = @"dd.MM.yyyy";
         [dictionary setObject:order.version forKey:@"version"];
     }
     if (![Utils isEmpty:order.serverCallbackUrl]) {
-        NSLog(order.serverCallbackUrl);
+        NSLog(@"%@", order.serverCallbackUrl);
         [dictionary setObject:order.serverCallbackUrl forKey:@"server_callback_url"];
     }
     if (order.lang != 0) {
