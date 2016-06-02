@@ -41,11 +41,11 @@
 
 @interface CardInputView ()
 
-@property (nonatomic, weak, readwrite) IBOutlet CardNumberTextField *cardNumberTextField;
-@property (nonatomic, weak, readwrite) IBOutlet UITextField *expMonthTextField;
-@property (nonatomic, weak, readwrite) IBOutlet UITextField *expYearTextField;
-@property (nonatomic, weak, readwrite) IBOutlet UITextField *cvvTextField;
-@property (nonatomic, strong) IBOutlet UIView *view;
+//@property (nonatomic, weak, readwrite) IBOutlet CardNumberTextField *cardNumberTextField;
+//@property (nonatomic, weak, readwrite) IBOutlet UITextField *expMonthTextField;
+//@property (nonatomic, weak, readwrite) IBOutlet UITextField *expYearTextField;
+//@property (nonatomic, weak, readwrite) IBOutlet UITextField *cvvTextField;
+//@property (nonatomic, strong) IBOutlet UIView *view;
 
 @property (strong, nonatomic) IBOutletCollection(UITextField) NSArray *fields;
 
